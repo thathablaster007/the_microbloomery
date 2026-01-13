@@ -691,15 +691,29 @@ footer {
         text-align: center;
     }
 
-    /* Image Collage Section */
+    /* Collage Images - Show on Mobile */
+    .WhatMicrogreens2 {
+        padding: 2rem 1rem;
+    }
+
     .collage {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
         justify-items: center;
+        gap: 1rem;
     }
 
     .collage div img {
-        width: 70% !important;
+        width: 85% !important;
+        height: auto !important;
+        max-width: 150px;
+    }
+
+    .Image1>img,
+    .Image2>img,
+    .Image3>img,
+    .Image4>img {
+        width: 85% !important;
         height: auto !important;
     }
 
@@ -837,6 +851,40 @@ footer {
 
     .scroll-arrow {
         width: 8%;
+    }
+
+    /* What Are Microgreens */
+    .WhatMicrogreens1 {
+        padding: 3rem 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .WhatMicrogreens1 h1 {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    .WhatMicrogreens1 p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    /* Collage for Tablet */
+    .WhatMicrogreens2 {
+        padding: 2rem;
+    }
+
+    .collage {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        gap: 1.5rem;
+    }
+
+    .collage div img {
+        width: 85% !important;
+        height: auto !important;
     }
 
     /* Tips Section */
