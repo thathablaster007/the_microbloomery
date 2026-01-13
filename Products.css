@@ -160,6 +160,10 @@ body {
     gap:1rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .shop>h1{
@@ -285,12 +289,17 @@ body {
 
 .Products{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(6,1fr);
-    gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
-
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: start;
 }
 
 .Photo-Info {
@@ -313,8 +322,12 @@ body {
     font-size: 0.90rem;
     font-weight: 500;
     text-align: center;
-    width: 100%;
+    width: 25rem;
     height: 3rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {

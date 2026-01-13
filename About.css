@@ -261,8 +261,10 @@ body {
     justify-content: center;
     align-items: center;
     gap:1.5rem;
-    padding: 4rem 0.1rem;
+    padding: 4rem 2rem;
     background-color: #F8F7EF!important;
+    width: 100%;
+    box-sizing: border-box;
 }
 .About>p{
     font-family: 'Quicksand';
@@ -275,12 +277,14 @@ body {
 .difference {
   background-color: #F8F7EF;
   font-family: 'Quicksand';
-  text-align: justify;
+  text-align: center;
   color: #2f2f2f;
-  width: 75%;
+  width: 100%;
+  max-width: 80rem;
   display: flex;
   flex-direction: column;
-  gap:1.0rem;
+  gap: 2rem;
+  align-items: center;
 }
 
 .diff-title {
@@ -293,8 +297,10 @@ body {
 .static-accordion {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  width: 25%;
+  gap: 1rem;
+  width: 100%;
+  max-width: 60rem;
+  padding: 0 2rem;
 }
 
 .static-item {
@@ -306,7 +312,8 @@ body {
   font-weight: 600;
   font-size: 1.1rem;
   position: relative;
-  gap: 0.75rem;
+  gap: 1rem;
+  text-align: left;
 }
 
 .static-item .plus {
