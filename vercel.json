@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/About", "destination": "/About.html" },
+    { "source": "/Blog", "destination": "/Blog.html" },
+    { "source": "/Contact", "destination": "/Contact.html" },
+    { "source": "/Products", "destination": "/Products.html" },
+    { "source": "/Blog1", "destination": "/Blog1.html" },
+    { "source": "/Blog2", "destination": "/Blog2.html" },
+    { "source": "/Blog3", "destination": "/Blog3.html" },
+    { "source": "/Blog4", "destination": "/Blog4.html" }
+  ]
+}
